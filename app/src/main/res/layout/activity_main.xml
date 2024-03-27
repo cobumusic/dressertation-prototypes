@@ -5,10 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lavenderBackground"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/headerAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/header"
@@ -19,16 +20,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.056" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
-        android:text="@string/headerBasics"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="155dp" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="175dp"
@@ -36,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/headerAdd"
         app:srcCompat="@drawable/takephotoicon0" />
 
     <ImageView
@@ -48,5 +39,130 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
         app:srcCompat="@drawable/uploadicon0" />
+
+    <TextView
+        android:id="@+id/headerBasics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/headerBasics"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/reqBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqBrand"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/hintGarmentType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintGarmentType"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/hintWhereStored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintWhereStored"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/headerColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headerColors"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/reqMajColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqMajorColor"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/hintMinColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqMinorColor"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/hintAddColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqAddtlColor"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/headerSupp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headerSupp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <TextView
+        android:id="@+id/reqCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqCost"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <TextView
+        android:id="@+id/reqMat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqMats"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <TextView
+        android:id="@+id/reqTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqTags"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <TextView
+        android:id="@+id/reqDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqDesc"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <TextView
+        android:id="@+id/reqWorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqWorn"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="682dp" />
+
+    <TextView
+        android:id="@+id/reqFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reqFav"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="707dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
