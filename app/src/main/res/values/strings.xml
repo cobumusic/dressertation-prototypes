@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Dressertation Add Page</string>
+    <string name="header">New Item</string>
+    <string name="headerBasics">Basics</string>
+    <string name="reqBrand">Brand:</string>
+    <string name="hintGarmentType">What type of garment is this?</string>
+    <string name="hintWhereStored">Where is this stored?</string>
+    <string name="headerColors">Colors</string>
+    <string name="reqMajorColor">Major:</string>
+    <string name="reqMinorColor">Minor:</string>
+    <string name="reqAddtlColor">Addt\\'l:</string>
+    <string name="headerSupp">Supplemental</string>
+    <string name="reqCost">Cost:</string>
+    <string name="reqMats">Material(s):</string>
+    <string name="reqTags">Tag(s):</string>
+    <string name="reqDesc">Description:</string>
+    <string name="reqWorn">Mark as Worn</string>
+    <string name="reqFav">Mark as Favorite</string>
 </resources>
