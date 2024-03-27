@@ -8,7 +8,7 @@
     <string name="headerColors">Colors</string>
     <string name="reqMajorColor">Major:</string>
     <string name="reqMinorColor">Minor:</string>
-    <string name="reqAddtlColor">Addt\\'l:</string>
+    <string name="reqAddtlColor">Addt\'l:</string>
     <string name="headerSupp">Supplemental</string>
     <string name="reqCost">Cost:</string>
     <string name="reqMats">Material(s):</string>
