@@ -16,4 +16,6 @@
     <string name="reqDesc">Description:</string>
     <string name="reqWorn">Mark as Worn</string>
     <string name="reqFav">Mark as Favorite</string>
+    <string name="buttonTextAdd">Add to Closet</string>
+    <string name="cancel0">Cancel</string>
 </resources>
