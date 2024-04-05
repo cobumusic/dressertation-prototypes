@@ -18,4 +18,64 @@
     <string name="reqFav">Mark as Favorite</string>
     <string name="buttonTextAdd">Add to Closet</string>
     <string name="cancel0">Cancel</string>
+
+    <string-array name="garmentTypes">
+        <item>What type of garment is this?</item>
+        <item>Accessory (Eyes)</item>
+        <item>Accessory (Neck)</item>
+        <item>Accessory (Other)</item>
+        <item>Activewear (Lower-Body)</item>
+        <item>Activewear (Outer-Body)</item>
+        <item>Activewear (Upper-Body)</item>
+        <item>African Native</item>
+        <item>African Native (Lower-Body)</item>
+        <item>African Native (Upper-Body)</item>
+        <item>Bag</item>
+        <item>Belt</item>
+        <item>Blazer</item>
+        <item>Blazer (Suit)</item>
+        <item>Bra</item>
+        <item>Dress</item>
+        <item>Grooming Tool</item>
+        <item>Head Gear</item>
+        <item>Hoodie</item>
+        <item>Jacket (Climate Proof)</item>
+        <item>Jacket (Non-Climate Proof)</item>
+        <item>Jersey</item>
+        <item>Jewelry (Ears)</item>
+        <item>Jewelry (Neck)</item>
+        <item>Jewelry (Other)</item>
+        <item>Kaftan</item>
+        <item>Kaftan (Lower-Body)</item>
+        <item>Kaftan (Upper-Body)</item>
+        <item>Pants (Casual)</item>
+        <item>Pants (Dress/Formal)</item>
+        <item>Pants (Jeans)</item>
+        <item>Scarf</item>
+        <item>Skirt</item>
+        <item>Shirt (Dress/Formal)</item>
+        <item>Shirt (Long Sleeve)</item>
+        <item>Shirt (Short Sleeve)</item>
+        <item>Shoes (Casual)</item>
+        <item>Shoes (Cleats)</item>
+        <item>Shoes (Dress/Formal)</item>
+        <item>Shoes (Trainers)</item>
+        <item>Shorts</item>
+        <item>Socks</item>
+        <item>Suit</item>
+        <item>Sweater</item>
+        <item>Tie</item>
+        <item>Tights</item>
+        <item>Under Garment (Lower)</item>
+        <item>Under Garment (Upper)</item>
+        <item>Underwear</item>
+        <item>Unspecified Type</item>
+        <item>Watch</item>
+    </string-array>
+
+    <string-array name="whereStoredOptions">
+        <item>Closet - Middle Hangers</item>
+        <item>Dresser - Bottom Shelf</item>
+        <item>Dresser - Top Shelf</item>
+    </string-array>
 </resources>
