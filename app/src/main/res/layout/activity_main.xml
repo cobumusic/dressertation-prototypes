@@ -65,33 +65,11 @@
         android:id="@+id/headerColors"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/headerColors"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toTopOf="@+id/reqMajColor"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hintWhereStored" />
-
-    <TextView
-        android:id="@+id/hintGarmentType"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/hintGarmentType"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reqBrand" />
-
-    <TextView
-        android:id="@+id/hintWhereStored"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/hintWhereStored"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hintGarmentType" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/reqMajColor"
@@ -208,9 +186,12 @@
         android:id="@+id/editTextText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
         android:ems="10"
         android:inputType="text"
         android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerGarmentType"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/reqBrand"
         app:layout_constraintTop_toBottomOf="@+id/headerBasics" />
 
@@ -294,20 +275,19 @@
 
     <Spinner
         android:id="@+id/spinnerGarmentType"
-        android:layout_width="100dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/hintWhereStored"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerWhereStored"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/hintGarmentType"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reqBrand" />
 
     <Spinner
         android:id="@+id/spinnerWhereStored"
-        android:layout_width="100dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/headerColors"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/hintWhereStored"
-        app:layout_constraintTop_toBottomOf="@+id/hintGarmentType" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
