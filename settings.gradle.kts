@@ -1,3 +1,5 @@
+
+
 pluginManagement {
     repositories {
         google {
@@ -17,8 +19,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+
 }
 
 rootProject.name = "Dressertation Add Page"
 include(":app")
+
+
  
