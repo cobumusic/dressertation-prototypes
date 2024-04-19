@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         vAddtlColorPreview = findViewById(R.id.addtlColorView);
 
         // set the default color to 0 as it is black
-        mDefaultColor = 255255255;
+        mDefaultColor = 0;
 
         // button open the AmbilWanra color picker dialog.
         vMajorColorPreview.setOnClickListener(
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                         // picker dialog functionality are
                         // handled in openColorPickerDialogue()
                         // function
-                        openColorPickerDialogue();
+                        openColorPickerDialogue(v);
                     }
                 });
 
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                         // picker dialog functionality are
                         // handled in openColorPickerDialogue()
                         // function
-                        //openColorPickerDialogue();
+                        openColorPickerDialogue(v);
                     }
                 });
 
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                         // picker dialog functionality are
                         // handled in openColorPickerDialogue()
                         // function
-                        //openColorPickerDialogue();
+                        openColorPickerDialogue(v);
                     }
                 });
     }
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
     // the AmbilWarnaDialog has 2 methods to be overridden
     // those are onCancel and onOk which handle the "Cancel"
     // and "OK" button of color picker dialog
-    public void openColorPickerDialogue() {
+    public void openColorPickerDialogue(View thisView) {
 
         // the AmbilWarnaDialog callback needs 3 parameters
         // one is the context, second is default color,
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
 
                         // now change the picked color
                         // preview box to mDefaultColor
-                        vMajorColorPreview.setBackgroundColor(mDefaultColor);
+                        thisView.setBackgroundColor(mDefaultColor);
                     }
                 });
         colorPickerDialogue.show();
